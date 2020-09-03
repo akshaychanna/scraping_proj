@@ -6,6 +6,7 @@ import logging
 
 
 if __name__ == '__main__':
+    #print(__name__)
     print("scrapping started")
     url = "https://www.fundoodata.com/citiesindustry/19/7/list-of-information-technology-(it)-companies-in-pune"
     adpter = Adpter(url)
